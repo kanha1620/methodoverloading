@@ -1,0 +1,18 @@
+fun main()
+{
+    sum2(10)
+    sum2(10,20)
+    var ans=sum2(10.3,20.4)
+    println("Summation of double numbers is:$ans")
+}
+fun sum2(a:Int)
+{
+    println("Increment by one is ${a+1}")
+}
+fun sum2(a:Int,b:Int)
+{
+    println("Sum of integers is ${a+b}")
+}
+fun sum2(a:Double,b:Double):Double{
+    return(a+b)
+}
